@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.5.3'
 
+# From template
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
@@ -15,6 +16,17 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+
+# Lightbox js
+gem 'popper_js', '~> 1.14.5'
+gem 'bootstrap-sass', '~> 3.3'
+gem 'lightbox-bootstrap-rails', '5.1.0.1'
+gem 'jquery-rails'
+
+# project specifique
+gem 'postmark-rails'
+gem 'leaflet-rails'
+gem 'letter_opener', group: :development
 
 group :development do
   gem 'web-console', '>= 3.3.0'
