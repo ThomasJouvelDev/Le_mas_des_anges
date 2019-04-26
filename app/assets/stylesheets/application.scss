@@ -4,11 +4,11 @@
 @import "config/bootstrap_variables";
 
 // External libraries
-@import "bootstrap/scss/bootstrap";
+@import "bootstrap";
+@import "bootstrap-sprockets";
+@import "lightbox-bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-// @import "bootstrap";
-@import "lightbox-bootstrap";
 
 // Your CSS partials
 @import "components/index";
