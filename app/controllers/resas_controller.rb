@@ -1,4 +1,6 @@
 class ResasController < ApplicationController
+  before_action :authenticate_user!, only: [:edit, :update, :destroy]
+
   def new
   end
 
