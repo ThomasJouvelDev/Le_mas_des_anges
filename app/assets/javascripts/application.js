@@ -1,4 +1,7 @@
-//= require rails-ujs
-//= require lightbox-bootstrap
-//= require leaflet
-//= require_tree .
+// = require rails-ujs
+// = require_tree .
+// = require leaflet
+// = require jquery3
+// = require popper
+// = require bootstrap-sprockets
+// = require lightbox-bootstrap
