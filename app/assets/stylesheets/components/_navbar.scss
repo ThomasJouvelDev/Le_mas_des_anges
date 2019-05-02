@@ -7,7 +7,7 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -45,7 +45,7 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 45px;
   @include sm {
     padding: 0px;
   }
@@ -54,7 +54,7 @@
 /* Navbar link */
 .navbar-wagon-link {
   color: #616668;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.3s ease;
 }
 .navbar-wagon-link:hover {
@@ -88,7 +88,7 @@
 
 .dropdown-content a {
   color: #616668;
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

@@ -8,3 +8,7 @@ fr:
   region: "LA RÉGION"
   commentvenir: "COMMENT VENIR"
   reserver: "RÉSERVER"
+  #footer
+  mentionslegales_link: 'Mentions légales'
+  contacteznous: "Contactez-nous"
+  pied: '© 2019 - Le Mas Des Anges - Tous droits réservés - Thomas Jouvel Dev - '
