@@ -19,10 +19,10 @@ gem 'uglifier'
 gem 'webpacker'
 
 # Lightbox js
+gem 'jquery-rails', '~> 4.3'
 gem 'popper_js', '~> 1.14.5'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'lightbox-bootstrap-rails', '5.1.0.1'
-gem 'jquery-rails'
 
 # project specifique
 gem 'postmark-rails'

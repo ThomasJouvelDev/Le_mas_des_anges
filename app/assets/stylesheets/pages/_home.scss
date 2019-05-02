@@ -1,1 +1,17 @@
 // Specific CSS for your home-page
+.evenement-infos {
+  background: white;
+  opacity: 0.85;
+  border-radius: 5px;
+  // width:100%;
+
+  color: #9d9883;
+  padding: 0 15px;
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  ul {
+    font-size: 12px;
+  }
+}
