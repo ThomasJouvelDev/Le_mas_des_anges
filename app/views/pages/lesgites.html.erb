@@ -1,1 +1,41 @@
-lesgites.html.erb
+<div class="barimage"></div>
+<div class="container">
+  <div class="masdesanges">
+    <h1>Le Mas des Anges - MENERBES</h1>
+    <%= simple_format(t(:MA1)) %>
+    <div class="imgtext">
+      <div class="textcarre">
+        <%= simple_format(t(:MA2a)) %>
+        <br>
+        <%= simple_format(t(:MA2b)) %>
+        <br>
+        <%= simple_format(t(:MA2c)) %>
+      </div>
+      <%= image_tag "region/GORDES.JPG", class:"imgcarred" %>
+    </div>
+    <div class="imgtext">
+      <%= image_tag "region/RUSTREL.JPG", class:"imgcarreg" %>
+      <div class="textcarre">
+        <%= simple_format(t(:MA3a)) %>
+      </div>
+    </div>
+    <%= simple_format(t(:MA3b)) %>
+    <h1>Le Grenier des Anges & Le Gite de la Vigne</h1>
+    <%= simple_format(t(:MA4)) %>
+    <div class="imgtext">
+      <%= image_tag "grenierdesanges/grenierdesanges1.JPG", class:"imgcarreg" %>
+      <div class="textcarre">
+        <%= simple_format(t(:GA1)) %>
+        <%= link_to "Le Grenier Des Anges", grenierdesanges_path, class:"btn btn-lg bouton" %>
+      </div>
+    </div>
+    <div class="imgtext">
+      <%= image_tag "gitedelavigne/Gitedelavigne1.JPG", class:"imgcarreg" %>
+      <div class="textcarre">
+        <%= simple_format(t(:GV1)) %>
+        <%= link_to "Le Gite De la Vigne", gitedelavigne_path, class:"btn btn-lg bouton" %>
+      </div>
+    </div>
+    <%= simple_format(t(:MA5)) %>
+  </div>
+</div>

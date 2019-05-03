@@ -33,10 +33,22 @@
 
 .lemas {
   margin-bottom: 0px;
-  color: white;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 130px !important;
+  line-height: 0.7;
+  color: $brown;
+
 }
 
 .desanges {
   margin-top: 0px;
-  color: $brown;
+  color: white;
+  font-size: 75px !important;
+  font-family:'Cormorant Unicase', serif;
+  font-weight:bold;
+    line-height: 0.7;
+}
+
+body {
+  color:$gray;
 }
