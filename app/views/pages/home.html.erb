@@ -13,16 +13,19 @@
   ]'
 >
   <div class="banner-content">
-    <h1>le mas <br>DES ANGES</h1>
-  <div class="evenement-infos">
-    <h3>Cet été dans le Lubéron :</h3>
-    <ul>
-      <li>Festival du Lubéron à Lacoste et Ménerbes (musique classique)</li>
-      <li>Festival d'Avignon (théâtre)</li>
-      <li>Festival International de la Roque d'Anthéron (piano)</li>
-    </ul>
-  </div>
-    <div class="bouton btn btn-lg">Réservez l'un de nos gîtes</div>
+    <h1 class="lemas">le mas </h1>
+    <h1 class="desanges">DES ANGES</h1>
+    <%= link_to evenements_path, class:"evelink" do %>
+    <div class="evenement-infos">
+      <h3>Cet été dans le Lubéron :</h3>
+      <ul>
+        <li>Festival du Lubéron à Lacoste et Ménerbes (musique classique)</li>
+        <li>Festival d'Avignon (théâtre)</li>
+        <li>Festival International de la Roque d'Anthéron (piano)</li>
+      </ul>
+    </div>
+    <% end %>
+    <%= link_to "Réservez Ici", reserver_path, class:"btn btn-lg bouton" %>
   </div>
 </div> <!-- /.primary -->
 

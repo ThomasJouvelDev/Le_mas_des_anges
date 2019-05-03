@@ -6,7 +6,7 @@
   // width:100%;
 
   color: #9d9883;
-  padding: 0 15px;
+  padding: 1px 15px;
   h3 {
     font-size: 18px;
     margin-top: 10px;
@@ -14,4 +14,29 @@
   ul {
     font-size: 12px;
   }
+}
+
+.evenement-infos:hover {
+  color: $red;
+  opacity:1;
+}
+
+.evelink {
+  text-decoration: none;
+  padding: 10px 0px;
+
+}
+
+.evelink:hover {
+  text-decoration: none;
+}
+
+.lemas {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.desanges {
+  margin-top: 0px;
+  color: $brown;
 }
