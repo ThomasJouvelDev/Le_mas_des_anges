@@ -1,24 +1,21 @@
 // Specific CSS for your home-page
 .evenement-infos {
-  background: white;
-  opacity: 0.85;
-  border-radius: 5px;
-  // width:100%;
+  // background: white;
 
-  color: #9d9883;
+  color: white;
   padding: 1px 15px;
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
   }
   ul {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
 .evenement-infos:hover {
-  color: $red;
-  opacity:1;
+  color: $light-gray;
+  opacity:0.9;
 }
 
 .evelink {
@@ -51,4 +48,16 @@
 
 body {
   color:$gray;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    width: 1900px;
+  }
 }
